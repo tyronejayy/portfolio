@@ -1,252 +1,93 @@
 body {
-    background-image: linear-gradient(lightblue, white);
-    background-size: cover;
+    font-size: 100%;
     color: black;
-    /* background-attachment: fixed; */
+    background: #e0ebe8;
+    min-height: 55vh;
+    padding-top: 45vh;
 }
 
-.circle:hover {
-border-radius:50%;
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    top: 0;
 }
 
-.color {
-    background: grey;
+header {
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: rgba(50,50,50,.95);
+    box-shadow: 0 10px 20px rgba(50,50,50,.95);
 }
-
-h1 {
-    font-size: 50px;
-    padding: 50px;
-    border: 5px solid grey;
-    text-align: center;
-    margin: 300px;
-    color: white;
-    background-image: url("../img/02.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-/* nav {
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 5px;
-    background-color:white;
-    color: white;
-    background-image: url("../img/02.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
-} */
 
 nav {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    overflow-x: hidden;
-    padding-top: 20px;
-    color: black;
-    font-size: 20px;
-  }
-  
-a {
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+nav a {
+    font: 1.2em/1em sans-serif;
+    display: inline-block;
+    padding: 10px 15px;
     text-decoration: none;
     color: white;
 }
 
-a:hover {
-    background-color: white;
-    padding-right: 0%;
-    color: black;
+nav a:hover {
+    color: #e0ebe8;
 }
 
-h2 {
-    color: white;
-    padding-left: 400px;
-    padding-right: 400px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.about {
-    background-image: url("../img/02.jpeg");
-    background-attachment: fixed;
-    background-size: cover;
-    border: 10px solid black;
-    color: white;
+#parallax {
+    padding-top: 70px;
+    margin-top: 300px;
 }
 
 p {
-    color: white;
-    padding-left: 300px;
-    padding-right: 300px;
+    margin: 0 0 10px;
+    line-height: 1.65em;
+    text-indent: 30px;
+    padding: 10px;
 }
 
-html {
-    scroll-behavior: smooth;
+.parallaxSection{
+	height: 50vh;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-position: 100% auto;
+    position:relative;
 }
 
-.image border {
-    border-radius: 150px;
+.parallaxImage{
+    background-image: url("../img/p6.jpeg");
 }
 
-#about {
-    position: relative;
-    padding-right: 400px;
-    padding-left: 400px;
-}
-
-.container1 {
-    position: relative;
-    bottom: 200px;
-    padding-right: 400px;
-    padding-left: 400px;
-    color: white;
-    font-size: 20px;
-}
-
-.container2 {
-    background-image: url("../img/01.jpeg");
-    background-attachment: fixed;
-    background-size: cover;
-    border: 10px solid black;
-}
-
-.image {
-    margin-right: 1200px;
-    position: relative;
-    border-radius: 100px;
-}
-
-#education {
-    padding-left: 400px;
-    padding-right: 400px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-#skills {
-    padding-left: 400px;
-    padding-right: 400px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-#experience {
-    padding-left: 400px;
-    padding-right: 400px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-#contact {
-    padding-left: 400px;
-    padding-right: 400px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.footer-container {
-    font-size: 20px;
+.center {
+    padding: 200px;
     text-align: center;
-    letter-spacing: 5px;
-    background-color:white;
-    color: black;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    text-transform: capitalize; 
 }
 
-/* Start of Responsive Design */
+.quote {
+    height: 50vh;
+    background-color: #e0ebe8;
+    color: rgba(50,50,50,.95);
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding: 20px;
+}
 
-@media only screen and (max-width: 786px) {
-    body {
-        background-image: url("../img/");
-        /* background-color: aquamarine; */
-        /* background-size: 100%; */
-        color: antiquewhite;
-        /* background-attachment: fixed; */
-        /* margin-right: 200px; */
-    }
-    
-    .circle:hover {
-    border-radius:50%;
-    }
-    
-    .color {
-        background: none;
-    }
-    
-    h1 {
-        font-size: 10px;
-        padding: 0px;
-        border: 1px solid black;
-        text-align: center;
-        margin: 0px;
-        color: black;
-    }
-    
-    nav {
-        font-size: 10px;
-        text-align: left;
-        letter-spacing: 0.1px;
-        color: black;
-    }
-    
-    a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    a:hover {
-        background-color: darkgrey;
-        padding-right: 0%;
-        color: black;
-    }
-    
-    h2 {
-        color: black;
-        padding: 0%;
-    }
-    
-    p {
-        color: black;
-        padding: 0%;
-    }
-    
-    html {
-        scroll-behavior: smooth;
-    }
-    
-    .image border {
-        border-radius: 150px;
-    }
-    
-    #about {
-        bottom: 200px;
-        position: relative;
-        padding: 0%;
-    }
-    
-    #education {
-        padding: 0%;
-    }
-    
-    #skills {
-        padding: 0%;
-    }
-    
-    #experience {
-        padding: 0%;
-    }
-    
-    #contact {
-        padding: 0%;
-    }
-    
-    .footer-container {
-        font-size: 10px;
-        text-align: left;
-        letter-spacing: 0.1px;
-        color: black;
-    }
-    
+.about {
+    height: 50vh;
+    background-image: url("../img/p6.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
 }
