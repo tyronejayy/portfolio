@@ -3,43 +3,135 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My New CV</title>
+    <title>personal-cv</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-    <script src=""></script>
+    <link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css">
+    <script src="js/main.js"></script>
 </head>
-<body>
-    <section class="main-container">
+<body id="home">
+  <br>
+  <section>
+    <header>
+      <div class="wrapper">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+  </section>
 
-        <header>
-            <div class="wrapper">
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                </nav>
-            </div>
-        </header>
-            
-        <section id="parallax">
-            <h2>Tyrone Joubert <br> Junior Web-Developer</h2>
-            <div class="parallaxSection parallaxImage">
-                <div class="center">
-                        "JY GAAN JOU LAAT MAAK AS JY DINK JY KAN MY MA UIT VLOEK!! - coloured chronicles"
-                </div>
-            </div>
-        </section>
+  <div class="heading">
+    <h1>I am Tyrone Joubert </br> Junior Web-Developer <br> <br></h1>
+  </div>
 
-        <section class="quote">
-            "JY GAAN JOU LAAT MAAK AS JY DINK JY KAN MY MA UIT VLOEK!! - coloured chronicles"
-        </section>
+  <div class="stickies" id="projects">
+    <h1 class="projects">PROJECTS</h1>
+  <ul>
+      <li>
+        <a href="">
+          <h2>Title #1</h2>
+          <p>Text Content #1</p>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <h2>Masonry Grid</h2>
+          <img src="img/masonry.jpg" height="130px"; width="160px">
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/tyronejayy/phpquiz">
+          <h2>Quiz-onator 3000</h2>
+          <img src="img/quiz.jpg" height="120px"; width="160px">
+        </a>
+      </li>
+      <li>
+        <a href="https://tyronejayy.github.io/jonchretien/index.html">
+          <h2>Jon-Chretien</h2>
+          <img src="img/avatar.jpg" height="130px"; width="160px">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <h2>Natural Springs, Cape Town</h2>
+          <img src="img/hiking-path-way.jpg" height="100px"; width="160px">
+        </a>
+      </li>
+  </ul>
+  </div>
 
-        <section class="about">
+  <div class="skills" id="skills">
+    <div class="wrapper">
+      <h1>SKILLS</h1> <br>
+      <p class="skillsHeading">
+          USE DIRECTIONAL KEYS FOR ROTATION
+      </p>
+      <br>
+          
+      <div id="experiment">
+        <div id="cube">
+          <div class="face one">
+            <p>SASS/SCSS</p>
+            <img src="img/sass.jpg" height="310px"; width="350px">
+          </div>
+          <div class="face two">
+            <p>CSS</p>
+            <img src="img/css.jpg" height="310px"; width="350px">
+          </div>
+          <div class="face three">
+            <p>HTML</p>
+            <img src="img/html.jpg" height="310px"; width="350px">
+          </div>
+          <div class="face four">
+            <p>PHP</p>
+            <img src="img/php.png" height="350px"; width="390px">
+          </div>
+          <div class="face five">
+            <p>BULMA</p>
+            <img src="img/bulma.png" height="310px"; width="350px">
+          </div>
+          <div class="face six">
+            <p>JAVASCRIPT</p>
+            <img src="img/js.jpg" height="310px"; width="350px">
+          </div>
+        </div>
+      </div>
+          
+    </div>
 
-        </section>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    
+  </div>
 
-
-    </section>
+  <section id="contact">
+    <div class="footer">
+      <div>
+        <h1>Contact me on the email below<img src="img/arrow-down.png" height="20px"; width="50px"></h3>
+        <br> <br>
+        <p>tyronejoubert22@gmail.com</p>
+      </div>
+    </div>
+    <div class="socialMedia">
+      <div></div>
+      <div>
+        <center>
+          <a href=""><img src="img/facebook_01.png" height="50px"; width="50px"></a>
+          <a href=""><img src="img/Twitter-05.png" height="50px"; width="50px"></a>
+          <a href=""><img src="img/linkedin-icon-30.png" height="50px"; width="50px"></a>
+        </center>
+      </div>
+      <div class="home">
+        <a href="#home"><img src="img/home.png" height="50px"; width="50px"></a>
+      </div>
+    </div>
+  </section>
+  
 </body>
 </html>
