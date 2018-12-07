@@ -52,6 +52,7 @@ html {
     top: 0;
 }
 
+
 header {
     top: 0;
     width: 100%;
@@ -115,7 +116,7 @@ h3 {
 }
 
 .stickies {
-    margin-top: 200px;
+    margin-top: 100px;
     background-color: rgba(50,50,50,.95);
 }
 
@@ -156,7 +157,6 @@ ul li a{
     padding: 1em;
     -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1);
     -webkit-transform: rotate(-6deg);
-    -o-transform: rotate(-6deg);
     -moz-transform: rotate(-6deg);
 }
 
@@ -182,7 +182,6 @@ ul li p {
 }
 
 ul li:nth-child(even) a {
-    -o-transform: rotate(4deg);
     -webkit-transform: rotate(4deg);
     -moz-transform: rotate(4deg);
     position: relative;
@@ -191,7 +190,6 @@ ul li:nth-child(even) a {
 }
 
 ul li:nth-child(3n) a {
-    -o-transform: rotate(-3deg);
     -webkit-transform: rotate(-3deg);
     -moz-transform: rotate(-3deg);
     position: relative;
@@ -201,7 +199,6 @@ ul li:nth-child(3n) a {
 }
 
 ul li:nth-child(5n) a {
-    -o-transform: rotate(5deg);
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     position: relative;
@@ -214,7 +211,6 @@ ul li a:hover, ul li a:focus {
     box-shadow: 10px 10px 7px rgba(0,0,0,.7);
     -webkit-transform: scale(1.25);
     -moz-transform: scale(1.25);
-    -o-transform: scale(1.25);
     position: relative;
     z-index: 5;
 }
@@ -353,6 +349,7 @@ ul li a:hover, ul li a:focus {
 
 .color:hover {
     background-color: white;
+    border-radius: 100%
 }
 
 hr {
